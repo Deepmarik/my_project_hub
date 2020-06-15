@@ -1,20 +1,30 @@
 body {
     margin: 0 auto;
     width: 1280px;
-   font-family: Arial; 
+    font-family: Arial;
     color: #FFFFFF;
 }
 
 .page-header {
-    background: #445161;
+    background: #445162;
+    height: 323px;
 }
+
 .page-header-title {
     font-style: normal;
     font-weight: normal;
     font-size: 60px;
     line-height: 69px;
-    /* identical to box height */
-
     display: flex;
     align-items: flex-end;
+}
+
+.page-header-wrp {
+    float: left;
+}
+
+page-header-pic {
+    width: 469px;
+    height: 214px;
+    background-color: #ffffff;
 }
