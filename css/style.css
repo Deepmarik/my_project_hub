@@ -1,4 +1,20 @@
 body {
     margin: 0 auto;
     width: 1280px;
+   font-family: Arial; 
+    color: #FFFFFF;
+}
+
+.page-header {
+    background: #445161;
+}
+.page-header-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 69px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
 }
