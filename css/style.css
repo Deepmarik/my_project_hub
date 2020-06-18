@@ -1,36 +1,201 @@
 body {
-    margin: 0 auto;
     width: 1280px;
+    margin: 0 auto;
+
+    box-sizing: border-box;
     font-family: Arial;
-    color: #FFFFFF;
+    color: #fff
+}
+
+.padding-site {
+    padding: 50px;
+    box-sizing: border-box;
 }
 
 .page-header {
-    background: #445162;
-    height: 323px;
+    width: 100%;
+    background-color: #445162;
+    border: 1px solid red;
+    /*    float: left;*/
+
 }
 
-.page-header-title {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 60px;
-    line-height: 69px;
-    display: flex;
-    align-items: flex-end;
+.page-header:after {
+    content: " ";
+    display: block;
+    width: 100%;
+    clear: both;
 }
 
 .page-header-wrp {
     float: left;
+    border: 1px solid #fff;
+
 }
 
-page-header-pic {
+.page-header-title {
+    display: block;
+    margin: 0 0 51px 0;
+    width: 374px;
+    font-size: 60px;
+    font-weight: 400;
+    border: 1px solid red;
+}
+
+.page-header-pic {
+    display: block;
+    float: right;
     width: 469px;
     height: 214px;
-    background-color: #ffffff;
+    background-color: #fff;
+    border: 1px solid red;
+    box-sizing: border-box;
+    color: black;
 }
-.page-header-list-item{
-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.3);
-font-size: 20px;
-line-height: 36px;
-font-weight: 400;
+
+.page-header-list {
+    padding: 0 0 0 35px;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.page-header-list-item {
+    position: relative;
+    list-style-type: none;
+}
+
+.page-header-list-item:before {
+    content: " ";
+    display: block;
+    width: 25px;
+    height: 19px;
+    /*    border: 1px solid #fff;*/
+    position: absolute;
+    top: 6px;
+    left: -30px;
+    background-image: url(/img/check_icon.png);
+}
+
+.content {
+    width: 100%;
+}
+
+.about-your-product {
+    width: 100%;
+    background-color: #fff;
+    float: left;
+}
+
+.section-about-wrap {
+    float: left;
+    border: 1px solid #912356;
+    margin: 0 auto;
+}
+
+.section-about-title {
+    display: block;
+    width: 254px;
+    height: 28px;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 49px 0 0 0;
+
+}
+
+.section-about-p {
+    /* Style for "Lorem ipsu" */
+    width: 649px;
+    height: 63px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-about-video {
+    display: block;
+    /* Style for "video" */
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    margin: 50px 0 0 0;
+    float: right;
+    box-sizing: border-box;
+
+}
+
+.dignity {
+    width: 100%;
+    background-color: #f5f5f5;
+    float: left;
+}
+
+.dignity-title {
+    /* Style for "Dignity an" */
+    width: 351px;
+    height: 28px;
+    color: #445161;
+    padding: 0 0 0 464px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.dignity-wrp {}
+
+.dignity-wrp-left {
+    width: 45%;
+    float: left;
+}
+
+.dignity-wrp-right {
+    width: 45%;
+    float: right;
+}
+
+.dignity-details-txt {
+    /* Style for "Delectus d" */
+    width: 526px;
+    color: #333333;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 45px;
+}
+
+.dignity-pic {
+    position: relative;
+    outline: 0;
+}
+
+.dignity-pic::-webkit-details-marker {
+    display: none;
+    list-style: none;
+}
+
+.dignity-pic::after {
+    background-color: #445161;
+    content: "+";
+    /*    color: #fff;*/
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    margin: -83px 0 0 0;
+    padding: 5px 5px 0 0;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    /*background-image: url(/img/dignity-pic.png);*/
+    position: absolute;
+
+}
+
+details[open] .dignity-pic::after {
+    position: absolute;
+    content: "-";
+
 }
