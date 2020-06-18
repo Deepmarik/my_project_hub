@@ -1,7 +1,6 @@
 body {
     width: 1280px;
     margin: 0 auto;
-
     box-sizing: border-box;
     font-family: Arial;
     color: #fff
@@ -15,9 +14,7 @@ body {
 .page-header {
     width: 100%;
     background-color: #445162;
-    border: 1px solid red;
-    /*    float: left;*/
-
+    /*    border: 1px solid red;*/
 }
 
 .page-header:after {
@@ -29,8 +26,7 @@ body {
 
 .page-header-wrp {
     float: left;
-    border: 1px solid #fff;
-
+    /*    border: 1px solid #fff;*/
 }
 
 .page-header-title {
@@ -39,7 +35,7 @@ body {
     width: 374px;
     font-size: 60px;
     font-weight: 400;
-    border: 1px solid red;
+    /*    border: 1px solid red;*/
 }
 
 .page-header-pic {
@@ -85,7 +81,14 @@ body {
 .about-your-product {
     width: 100%;
     background-color: #fff;
-    float: left;
+    /*    float: left;*/
+}
+
+.about-your-product:after {
+    content: " ";
+    display: block;
+    width: 100%;
+    clear: both;
 }
 
 .section-about-wrap {
@@ -103,7 +106,6 @@ body {
     font-weight: 400;
     line-height: 36px;
     padding: 49px 0 0 0;
-
 }
 
 .section-about-p {
@@ -125,13 +127,18 @@ body {
     margin: 50px 0 0 0;
     float: right;
     box-sizing: border-box;
-
 }
 
 .dignity {
     width: 100%;
     background-color: #f5f5f5;
-    float: left;
+}
+
+.dignity:after {
+    content: " ";
+    display: block;
+    width: 100%;
+    clear: both;
 }
 
 .dignity-title {
@@ -145,15 +152,13 @@ body {
     line-height: 36px;
 }
 
-.dignity-wrp {}
-
 .dignity-wrp-left {
-    width: 45%;
+    width: 46%;
     float: left;
 }
 
 .dignity-wrp-right {
-    width: 45%;
+    width: 46%;
     float: right;
 }
 
@@ -191,19 +196,23 @@ body {
     height: 32px;
     /*background-image: url(/img/dignity-pic.png);*/
     position: absolute;
-
 }
 
 details[open] .dignity-pic::after {
     position: absolute;
     content: "-";
-
 }
 
 .scrinshots {
     width: 100%;
     background-color: #fff;
-    float: left;
+}
+
+.scrinshots:after {
+    content: " ";
+    display: block;
+    width: 100%;
+    clear: both;
 }
 
 .scrinshots-title {
@@ -217,18 +226,17 @@ details[open] .dignity-pic::after {
 }
 
 .scrinshots-left-wrp {
-    width: 45%;
+    width: 46%;
     float: left;
 }
 
 .scrinshots-right-wrp {
-    width: 45%;
+    width: 46%;
     float: right;
 }
 
 .scrinshots-figure {
     margin: 35px 0 45px 0;
-
 }
 
 .scrinshots-figure-bottom {
@@ -259,14 +267,76 @@ details[open] .dignity-pic::after {
     font-size: 24px;
     font-weight: 400;
     line-height: 30px;
-/*    margin-left: 15px;*/
 }
 
 .figcaption-text {
     /* Style for "Pariatur i" */
-/*    width: 359px;*/
     color: #333333;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+}
+
+.section-reviews {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.section-reviews:after {
+    content: " ";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.section-reviews-title {
+    /* Style for "Reviews" */
+    width: 111px;
+    /*height: 22px;*/
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 0 0 0 585px;
+}
+
+.reviews-wrp-left {
+    width: 46%;
+    float: left;
+}
+
+.rewievs-figure {margin: 35px 0 45px 0;}
+
+.rewievs-pic {display: block;
+float: left;}
+
+.rewievs-figcaption {margin-left: 91px;
+    background-image: url(/img/bg_review.png);
+    width: 483px;
+}
+
+.rewievs-figcaption-text {
+    /* Style for "Porro offi" */
+    width: 436px;
+    color: #333333;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+        padding: 16px 20px 0px 27px;
+}
+
+.rewievs-figcaption-autor {
+    /* Style for "Lourens S." */
+    width: 67px;
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-left: 27px;
+}
+
+.reviews-wrp-right {
+    width: 46%;
+    float: right;
 }
