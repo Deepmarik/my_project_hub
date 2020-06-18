@@ -199,3 +199,74 @@ details[open] .dignity-pic::after {
     content: "-";
 
 }
+
+.scrinshots {
+    width: 100%;
+    background-color: #fff;
+    float: left;
+}
+
+.scrinshots-title {
+    /* Style for "Scrinshots" */
+    width: 138px;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 0 0 0 571px;
+}
+
+.scrinshots-left-wrp {
+    width: 45%;
+    float: left;
+}
+
+.scrinshots-right-wrp {
+    width: 45%;
+    float: right;
+}
+
+.scrinshots-figure {
+    margin: 35px 0 45px 0;
+
+}
+
+.scrinshots-figure-bottom {
+    margin: 0;
+}
+
+.scrinshot-pic {
+    /* Style for "image" */
+    width: 200px;
+    /*height: 150px;*/
+    background-color: #445161;
+    top: 0;
+    left: 0;
+    display: block;
+    float: left;
+}
+
+.scrinshots-figcaption {
+    width: 365px;
+    padding-left: 215px;
+}
+
+.figcaption-title {
+    /* Style for "The descri" */
+    width: 310px;
+    /*height: 23px;*/
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+/*    margin-left: 15px;*/
+}
+
+.figcaption-text {
+    /* Style for "Pariatur i" */
+/*    width: 359px;*/
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
