@@ -189,7 +189,6 @@ body {
 
 .dignity-pic::-webkit-details-marker {
     display: none;
-    /*    list-style: none;*/
 }
 
 .dignity-pic::after {
@@ -222,49 +221,27 @@ details[open] .dignity-pic::after {
 
 }
 
-/*.scrinshots:after {*/
-/*    content: " ";*/
-/*    display: block;*/
-/*    width: 100%;*/
-/*    clear: both;*/
-}
-
 .scrinshots-title {
     /* Style for "Scrinshots" */
-/*    display: block;*/
     width: 100%;
-    color: #445161;
     text-align: center;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 36px;
-    margin: 0 0 20px 0;
-    padding: 0;
-}
-
-/*.scrinshots-left-wrp {*/
-/*    width: 48%;*/
-/*    float: left;*/
-}
-
-/*.scrinshots-right-wrp {*/
-/*    width: 48%;*/
-/*    float: right;*/
+    margin: 0px 0 35px 0;
+    font-size: 28px;
+    color: #445161;
 }
 
 .scrinshots-figure {
-    margin: 0 0 20px 0;
-}
-
-/*.scrinshots-figure:after {*/
-/*    content: '';*/
-/*    display: block;*/
-/*    width: 100%;*/
-/*    clear: both;*/
+    width: 48%;
+    margin: 0 0 30px 0;
 }
 
 .scrinshots-figure-bottom {
+    width: 48%;
     margin: 0;
+}
+
+.scrinshots-figure-left {
+    margin-right: 10px;
 }
 
 .scrinshot-pic {
@@ -273,7 +250,7 @@ details[open] .dignity-pic::after {
     background-color: #445161;
     display: block;
     float: left;
-    /*    margin: 0 0 0 0;*/
+    margin: 0 12px 0 0;
 }
 
 .scrinshots-figcaption {
