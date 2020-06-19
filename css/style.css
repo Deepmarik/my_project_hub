@@ -44,7 +44,7 @@ body {
     width: 469px;
     height: 214px;
     background-color: #fff;
-/*    border: 1px solid red;*/
+    /*    border: 1px solid red;*/
     box-sizing: border-box;
     color: black;
 }
@@ -71,7 +71,7 @@ body {
     position: absolute;
     top: 6px;
     left: -30px;
-    background-image: url(/img/check_icon.png);
+    background-image: url(../img/check_icon.png);
 }
 
 .content {
@@ -93,29 +93,31 @@ body {
 
 .section-about-wrap {
     float: left;
-/*    border: 1px solid #912356;*/
+    /*    border: 1px solid #912356;*/
     margin: 0 auto;
 }
 
 .section-about-title {
     display: block;
     width: 254px;
-    height: 28px;
+    /*    height: 28px;*/
     color: #445161;
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
-    padding: 49px 0 0 0;
+    padding: 0;
+    margin: 0;
 }
 
 .section-about-p {
     /* Style for "Lorem ipsu" */
     width: 649px;
-    height: 63px;
+    /*    height: 63px;*/
     color: #333333;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    margin: 20px 0 0 0;
 }
 
 .section-about-video {
@@ -124,7 +126,7 @@ body {
     width: 430px;
     height: 245px;
     background-color: #445161;
-    margin: 50px 0 0 0;
+    margin: 0 0 0 0;
     float: right;
     box-sizing: border-box;
 }
@@ -132,6 +134,7 @@ body {
 .dignity {
     width: 100%;
     background-color: #f5f5f5;
+    padding-bottom: 30px;
 }
 
 .dignity:after {
@@ -143,13 +146,17 @@ body {
 
 .dignity-title {
     /* Style for "Dignity an" */
-    width: 351px;
-    height: 28px;
+    display: block;
+    width: 100%;
+    /*    height: 28px;*/
     color: #445161;
     padding: 0 0 0 464px;
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 20px 0;
 }
 
 .dignity-wrp-left {
@@ -164,12 +171,15 @@ body {
 
 .dignity-details-txt {
     /* Style for "Delectus d" */
-    width: 526px;
+    width: 100%;
     color: #333333;
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
     padding-left: 45px;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+
 }
 
 .dignity-pic {
@@ -179,7 +189,7 @@ body {
 
 .dignity-pic::-webkit-details-marker {
     display: none;
-    list-style: none;
+    /*    list-style: none;*/
 }
 
 .dignity-pic::after {
@@ -206,37 +216,51 @@ details[open] .dignity-pic::after {
 .scrinshots {
     width: 100%;
     background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
 
-.scrinshots:after {
-    content: " ";
-    display: block;
-    width: 100%;
-    clear: both;
+/*.scrinshots:after {*/
+/*    content: " ";*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    clear: both;*/
 }
 
 .scrinshots-title {
     /* Style for "Scrinshots" */
-    width: 138px;
+/*    display: block;*/
+    width: 100%;
     color: #445161;
+    text-align: center;
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
-    padding: 0 0 0 571px;
+    margin: 0 0 20px 0;
+    padding: 0;
 }
 
-.scrinshots-left-wrp {
-    width: 46%;
-    float: left;
+/*.scrinshots-left-wrp {*/
+/*    width: 48%;*/
+/*    float: left;*/
 }
 
-.scrinshots-right-wrp {
-    width: 46%;
-    float: right;
+/*.scrinshots-right-wrp {*/
+/*    width: 48%;*/
+/*    float: right;*/
 }
 
 .scrinshots-figure {
-    margin: 35px 0 45px 0;
+    margin: 0 0 20px 0;
+}
+
+/*.scrinshots-figure:after {*/
+/*    content: '';*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    clear: both;*/
 }
 
 .scrinshots-figure-bottom {
@@ -246,17 +270,16 @@ details[open] .dignity-pic::after {
 .scrinshot-pic {
     /* Style for "image" */
     width: 200px;
-    /*height: 150px;*/
     background-color: #445161;
-    top: 0;
-    left: 0;
     display: block;
     float: left;
+    /*    margin: 0 0 0 0;*/
 }
 
 .scrinshots-figcaption {
-    width: 365px;
-    padding-left: 215px;
+    width: 354px;
+    padding-left: 0;
+    float: right;
 }
 
 .figcaption-title {
@@ -275,6 +298,7 @@ details[open] .dignity-pic::after {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    margin: 10px 0 0 0;
 }
 
 .section-reviews {
@@ -356,7 +380,11 @@ details[open] .dignity-pic::after {
     width: 100%;
     clear: both;
 }
-.buy-title-wrp{ margin-left: -29px;}
+
+.buy-title-wrp {
+    margin-left: -29px;
+}
+
 .section-buy-title {
     /* Style for "Buy it now" */
     width: 137px;
@@ -383,7 +411,7 @@ details[open] .dignity-pic::after {
 
 .buy-premium-wrp {
     margin: 152px 30px 0 25px;
-        }
+}
 
 .buy-lux-wrp {
     margin: 57px -27px 0 0;
