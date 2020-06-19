@@ -303,20 +303,16 @@ details[open] .dignity-pic::after {
 
 .rewievs-article-item {
     width: 48%;
-    border: 1px solid red;
+    /*    border: 1px solid red;*/
     box-sizing: border-box;
     margin: 0 0 20px 0;
     display: flex;
     justify-content: space-between;
 }
 
-.figure-rewievs-pic {}
-
-.rewievs-pic {
+.figure-rewievs-pic {
     display: block;
-    /*    float: left;*/
 }
-
 
 .rewievs-item-text {
     width: 80%;
@@ -326,7 +322,7 @@ details[open] .dignity-pic::after {
     font-weight: 400;
     line-height: 18px;
     padding: 15px;
-    background-color: #fff;
+    background-color: #ddd;
     box-sizing: border-box;
     border-radius: 10px;
     position: relative;
@@ -335,7 +331,7 @@ details[open] .dignity-pic::after {
 .rewievs-item-text:before {
     content: " ";
     border: 20px solid transparent;
-    border-right: 20px solid #fff;
+    border-right: 20px solid #ddd;
     display: block;
     position: absolute;
     top: 15px;
@@ -346,25 +342,13 @@ details[open] .dignity-pic::after {
     display: block;
     margin: 5px 0 0 0;
     font-style: normal;
-}
-
-.rewievs-figcaption {
-    margin-left: 91px;
-    /*    background-image: url(/img/bg_review.png);*/
-    width: 483px;
-}
-
-
-
-.rewievs-figcaption-autor {
-    /* Style for "Lourens S." */
-    width: 67px;
+    width: 68px;
     color: #989898;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-    padding-left: 27px;
 }
+
 
 .section-buy-it-now {
     width: 100%;
