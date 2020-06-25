@@ -437,3 +437,19 @@ details[open] .dignity-pic::before {
     background-color: #445161;
     color: #fff;
 }
+
+.form-contacts {
+    background-color: #445161;
+    width: 100%;
+}
+
+.form-contacts-title {
+    width: 100%;
+    display: block;
+    text-align: center;
+/*  font-family: ArialMT;*/
+font-size: 30px;
+line-height: 36px;
+font-weight: 400;
+color: #ffffff;
+}
