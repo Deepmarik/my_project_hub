@@ -439,17 +439,70 @@ details[open] .dignity-pic::before {
 }
 
 .form-contacts {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #445161;
     width: 100%;
+    justify-content: center;
+    outline: none;
 }
 
 .form-contacts-title {
     width: 100%;
     display: block;
     text-align: center;
-/*  font-family: ArialMT;*/
-font-size: 30px;
-line-height: 36px;
-font-weight: 400;
-color: #ffffff;
+    /*  font-family: ArialMT;*/
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 0 35px 0;
+}
+
+.form-contacts-wrp {
+    width: 39%;
+    margin: 0;
+}
+
+.social-net-wrp {
+    width: 19%;
+}
+
+.field-contacts {
+    width: 100%;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162;
+    margin: 0 0 19px 0;
+    padding: 0 0 0 10px;
+    min-height: 40px;
+    outline: none;
+}
+
+.field-textarea {
+    /*    box-sizing: border-box;*/
+    border: none;
+    width: 100%;
+    resize: none;
+    min-height: 170px;
+    color: #445162;
+    font-family: Arial;
+}
+
+.form-btn {
+    display: block;
+    box-sizing: border-box;
+    width: 140px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #445162;
+    text-align: center;
+    padding: 14px 0 14px 0;
+    border-radius: 10px;
+    border: none;
+    margin: 0 auto;
 }
