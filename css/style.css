@@ -422,6 +422,7 @@ details[open] .dignity-pic::before {
     margin: 0 0 20px 0;
     text-transform: uppercase;
     border: none;
+    outline: none;
     cursor: pointer;
     color: #445161;
     font-size: 18px;
@@ -430,12 +431,17 @@ details[open] .dignity-pic::before {
 }
 
 .price-btn:hover {
-    background-color: #ddd;
+    background-color: #8d9cb0;
+    color: #fff;
 }
 
 .price-btn:active {
-    background-color: #445161;
-    color: #fff;
+    background-color: #fff;
+    color: #445161;
+}
+
+.price-btn:focus {
+    border: 2px solid #435061;
 }
 
 .form-contacts {
@@ -443,7 +449,6 @@ details[open] .dignity-pic::before {
     flex-wrap: wrap;
     background-color: #445161;
     width: 100%;
-    /*    justify-content: space-evenly;*/
 
 }
 
@@ -451,7 +456,6 @@ details[open] .dignity-pic::before {
     width: 100%;
     display: block;
     text-align: center;
-    /*  font-family: ArialMT;*/
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
@@ -463,8 +467,6 @@ details[open] .dignity-pic::before {
     width: 39%;
     margin: 0px 45px 0 250px;
 }
-
-
 
 .field-contacts {
     width: 100%;
@@ -486,7 +488,7 @@ details[open] .dignity-pic::before {
 }
 
 .field-textarea {
-    /*    box-sizing: border-box;*/
+    box-sizing: border-box;
     border: none;
     width: 100%;
     resize: none;
@@ -537,12 +539,10 @@ details[open] .dignity-pic::before {
     color: #ffffff;
     padding-left: 30px;
     margin: 0 0 20px 0;
-    /*    position: relative;*/
-}
+    }
 
 .social-skype-link {
     position: relative;
-
 }
 
 .social-skype-link::before {
