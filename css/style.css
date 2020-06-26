@@ -443,8 +443,8 @@ details[open] .dignity-pic::before {
     flex-wrap: wrap;
     background-color: #445161;
     width: 100%;
-    justify-content: center;
-    outline: none;
+    /*    justify-content: space-evenly;*/
+
 }
 
 .form-contacts-title {
@@ -461,24 +461,28 @@ details[open] .dignity-pic::before {
 
 .form-contacts-wrp {
     width: 39%;
-    margin: 0;
+    margin: 0px 45px 0 250px;
 }
 
-.social-net-wrp {
-    width: 19%;
-}
+
 
 .field-contacts {
     width: 100%;
     border-radius: 10px;
+    box-sizing: border-box;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     color: #445162;
     margin: 0 0 19px 0;
-    padding: 0 0 0 10px;
+    padding: 14px 0 14px 10px;
     min-height: 40px;
+    border: none;
     outline: none;
+}
+
+.field-contacts:focus {
+    background: #c7cdd9;
 }
 
 .field-textarea {
@@ -504,5 +508,164 @@ details[open] .dignity-pic::before {
     padding: 14px 0 14px 0;
     border-radius: 10px;
     border: none;
+    outline: none;
     margin: 0 auto;
+}
+
+.form-btn:hover {
+    background: #8d9cb0;
+    color: #fff;
+}
+
+.form-btn:active {
+    background: #707f9c;
+}
+
+.social-net-wrp {
+    margin: 0;
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.social-net-style {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-left: 30px;
+    margin: 0 0 20px 0;
+    /*    position: relative;*/
+}
+
+.social-skype-link {
+    position: relative;
+
+}
+
+.social-skype-link::before {
+    width: 24px;
+    height: 26px;
+    display: block;
+    content: " ";
+    position: absolute;
+    color: #fff;
+    top: 0;
+    left: 0;
+    background-image: url(../img/skype_icon.png);
+}
+
+.social-icq-link {
+    position: relative;
+}
+
+.social-icq-link::before {
+    width: 26px;
+    height: 26px;
+    display: block;
+    content: " ";
+    position: absolute;
+    color: #fff;
+    top: 0;
+    left: 0;
+    background-image: url(../img/icq_icon.png);
+}
+
+.social-email-link {
+    position: relative;
+}
+
+.social-email-link::before {
+    width: 22px;
+    height: 22px;
+    display: block;
+    content: " ";
+    position: absolute;
+    color: #fff;
+    top: 0;
+    left: 0;
+    background-image: url(../img/email_icon.png);
+}
+
+.social-tel-link {
+    position: relative
+}
+
+.social-tel-link::before {
+    width: 22px;
+    height: 22px;
+    display: block;
+    content: " ";
+    position: absolute;
+    color: #fff;
+    top: 0;
+    left: 0;
+    background-image: url(../img/phone_icon.png);
+}
+
+.social-net-style:last-of-type {
+    margin: 0 0 37px 0;
+}
+
+.social-link-position-wrp {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social-link-tw {
+    background-image: url(../img/tw-logo.png);
+}
+
+.social-link-fb {
+    background-image: url(../img/fb-logo.png);
+}
+
+.social-link-in {
+    background-image: url(../img/in-logo.png);
+}
+
+.social-link-g {
+    background-image: url(../img/g-logo.png);
+}
+
+.social-link-yt {
+    background-image: url(../img/yt-logo.png);
+}
+
+.social-link-position {
+    display: block;
+    width: 42px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.social-link-tw:hover,
+.social-link-fb:hover,
+.social-link-in:hover,
+.social-link-g:hover,
+.social-link-yt:hover {
+    background-color: #8d9cb0;
+}
+
+.social-link-tw:active,
+.social-link-fb:active,
+.social-link-in:active,
+.social-link-g:active,
+.social-link-yt:active {
+    background-color: #707f9c;
+}
+
+.footer-txt {
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    text-align: center;
+    color: #445162;
 }
